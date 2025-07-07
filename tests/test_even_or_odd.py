@@ -7,9 +7,6 @@ def test_even_or_odd():
 
 
 def even_or_odd(num):
-    if num % 2 == 0:
-        return "even"
-    else:
-        return "odd"
+    return "even" if num % 2 == 0 else "odd"
 
 
